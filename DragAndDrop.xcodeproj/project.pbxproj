@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7868CB6B2AB1055100B4F41A /* GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868CB6A2AB1055100B4F41A /* GesturesApp.swift */; };
-		7868CB6D2AB1055100B4F41A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868CB6C2AB1055100B4F41A /* ContentView.swift */; };
+		7868CB6B2AB1055100B4F41A /* DragAndDropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868CB6A2AB1055100B4F41A /* DragAndDropApp.swift */; };
+		7868CB6D2AB1055100B4F41A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868CB6C2AB1055100B4F41A /* GameView.swift */; };
 		7868CB6F2AB1055200B4F41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7868CB6E2AB1055200B4F41A /* Assets.xcassets */; };
 		7868CB722AB1055200B4F41A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7868CB712AB1055200B4F41A /* Preview Assets.xcassets */; };
+		7893342A2AB107BA00014301 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789334292AB107BA00014301 /* MemoryItem.swift */; };
+		7893342C2AB109DC00014301 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893342B2AB109DC00014301 /* MemoryGame.swift */; };
+		7893342E2AB1B9ED00014301 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893342D2AB1B9ED00014301 /* DateExtension.swift */; };
+		789334302AB1CF9B00014301 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893342F2AB1CF9B00014301 /* WelcomeView.swift */; };
+		789334322AB1D23B00014301 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789334312AB1D23B00014301 /* ButtonView.swift */; };
+		789334342AB1D2F000014301 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789334332AB1D2F000014301 /* NavigationView.swift */; };
+		789334392AB2072800014301 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789334382AB2072800014301 /* ConfettiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7868CB672AB1055100B4F41A /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7868CB6A2AB1055100B4F41A /* GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesApp.swift; sourceTree = "<group>"; };
-		7868CB6C2AB1055100B4F41A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7864695A2AB57A4C007BDE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7868CB672AB1055100B4F41A /* DragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7868CB6A2AB1055100B4F41A /* DragAndDropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropApp.swift; sourceTree = "<group>"; };
+		7868CB6C2AB1055100B4F41A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7868CB6E2AB1055200B4F41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7868CB712AB1055200B4F41A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		789334292AB107BA00014301 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		7893342B2AB109DC00014301 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		7893342D2AB1B9ED00014301 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		7893342F2AB1CF9B00014301 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		789334312AB1D23B00014301 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		789334332AB1D2F000014301 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		789334382AB2072800014301 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +50,7 @@
 		7868CB5E2AB1055100B4F41A = {
 			isa = PBXGroup;
 			children = (
-				7868CB692AB1055100B4F41A /* Gestures */,
+				7868CB692AB1055100B4F41A /* DragAndDrop */,
 				7868CB682AB1055100B4F41A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +58,28 @@
 		7868CB682AB1055100B4F41A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7868CB672AB1055100B4F41A /* Gestures.app */,
+				7868CB672AB1055100B4F41A /* DragAndDrop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7868CB692AB1055100B4F41A /* Gestures */ = {
+		7868CB692AB1055100B4F41A /* DragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
-				7868CB6A2AB1055100B4F41A /* GesturesApp.swift */,
-				7868CB6C2AB1055100B4F41A /* ContentView.swift */,
+				7864695A2AB57A4C007BDE44 /* Info.plist */,
+				7893342B2AB109DC00014301 /* MemoryGame.swift */,
+				7868CB6A2AB1055100B4F41A /* DragAndDropApp.swift */,
+				7868CB6C2AB1055100B4F41A /* GameView.swift */,
+				789334292AB107BA00014301 /* MemoryItem.swift */,
 				7868CB6E2AB1055200B4F41A /* Assets.xcassets */,
+				7893342D2AB1B9ED00014301 /* DateExtension.swift */,
+				7893342F2AB1CF9B00014301 /* WelcomeView.swift */,
+				789334312AB1D23B00014301 /* ButtonView.swift */,
+				789334382AB2072800014301 /* ConfettiView.swift */,
+				789334332AB1D2F000014301 /* NavigationView.swift */,
 				7868CB702AB1055200B4F41A /* Preview Content */,
 			);
-			path = Gestures;
+			path = DragAndDrop;
 			sourceTree = "<group>";
 		};
 		7868CB702AB1055200B4F41A /* Preview Content */ = {
@@ -70,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7868CB662AB1055100B4F41A /* Gestures */ = {
+		7868CB662AB1055100B4F41A /* DragAndDrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7868CB752AB1055200B4F41A /* Build configuration list for PBXNativeTarget "Gestures" */;
+			buildConfigurationList = 7868CB752AB1055200B4F41A /* Build configuration list for PBXNativeTarget "DragAndDrop" */;
 			buildPhases = (
 				7868CB632AB1055100B4F41A /* Sources */,
 				7868CB642AB1055100B4F41A /* Frameworks */,
@@ -82,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = Gestures;
+			name = DragAndDrop;
 			productName = Gestures;
-			productReference = 7868CB672AB1055100B4F41A /* Gestures.app */;
+			productReference = 7868CB672AB1055100B4F41A /* DragAndDrop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7868CB622AB1055100B4F41A /* Build configuration list for PBXProject "Gestures" */;
+			buildConfigurationList = 7868CB622AB1055100B4F41A /* Build configuration list for PBXProject "DragAndDrop" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7868CB662AB1055100B4F41A /* Gestures */,
+				7868CB662AB1055100B4F41A /* DragAndDrop */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7868CB6D2AB1055100B4F41A /* ContentView.swift in Sources */,
-				7868CB6B2AB1055100B4F41A /* GesturesApp.swift in Sources */,
+				7868CB6D2AB1055100B4F41A /* GameView.swift in Sources */,
+				789334302AB1CF9B00014301 /* WelcomeView.swift in Sources */,
+				7893342E2AB1B9ED00014301 /* DateExtension.swift in Sources */,
+				7868CB6B2AB1055100B4F41A /* DragAndDropApp.swift in Sources */,
+				7893342C2AB109DC00014301 /* MemoryGame.swift in Sources */,
+				789334342AB1D2F000014301 /* NavigationView.swift in Sources */,
+				789334392AB2072800014301 /* ConfettiView.swift in Sources */,
+				7893342A2AB107BA00014301 /* MemoryItem.swift in Sources */,
+				789334322AB1D23B00014301 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +296,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gestures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DragAndDrop/Preview Content\"";
 				DEVELOPMENT_TEAM = LERH2UNHBY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragAndDrop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyndachiwetelu.Gestures;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyndachiwetelu.DragAndDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,10 +326,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gestures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DragAndDrop/Preview Content\"";
 				DEVELOPMENT_TEAM = LERH2UNHBY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragAndDrop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyndachiwetelu.Gestures;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyndachiwetelu.DragAndDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7868CB622AB1055100B4F41A /* Build configuration list for PBXProject "Gestures" */ = {
+		7868CB622AB1055100B4F41A /* Build configuration list for PBXProject "DragAndDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7868CB732AB1055200B4F41A /* Debug */,
@@ -329,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7868CB752AB1055200B4F41A /* Build configuration list for PBXNativeTarget "Gestures" */ = {
+		7868CB752AB1055200B4F41A /* Build configuration list for PBXNativeTarget "DragAndDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7868CB762AB1055200B4F41A /* Debug */,
